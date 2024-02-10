@@ -1,0 +1,12 @@
+<app-header></app-header>
+
+<div class="container mt-5" *ngFor="let personaje of listaPersonajes">
+  <div class="card" style="width: 18rem;">
+    <img src="ruta_de_la_imagen.jpg" class="card-img-top" alt="Descripción de la imagen">
+    <div class="card-body">
+      <h5 class="card-title">{{personaje.name}}</h5>
+      <p class="card-text">Texto descriptivo de la tarjeta.</p>
+      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+    </div>
+  </div>
+</div>
